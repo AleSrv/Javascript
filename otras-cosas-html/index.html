@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <base target="_blank">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Native HTML Serch</h1>
+        
+        <input list="items">
+
+        <datalist id="items">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+        </datalist>
+    </div>
+    <br><br>
+    <a href="mailto:fernandezag@gmail.com?subject=prueba mail &body=">Enviar mail</a>
+    <a href="tel:0034678534012">LLamanos</a>
+    <a href="sms:0034678534012">sms</a>
+    <div class="lazy"><br><br>
+        <img src="th5.jpeg" loading="lazy" alt="img">
+    </div>
+    <br>
+    <br>
+    <div>
+        <ol start="10">
+            <h2>Empezar lista ordenada con número 10</h2>
+            <li>
+                <label for="value1">Low</label><br>
+                <meter>
+                    id="value1" min="0" max="100" 
+                    low="30" high="75" optimum="80" value="25" 
+                </meter>
+            </li>
+            <li>
+                <label for="value1">Medium</label><br>
+                <meter>
+                    id="value1" min="0" max="100" 
+                    low="30" high="75" optimum="80" value="50" 
+                </meter>
+            </li>
+            <li>
+                <label for="value1">High</label><br>
+                <meter>
+                    id="value1" min="0" max="100" 
+                    low="30" high="75" optimum="80" value="75" 
+                </meter>
+            </li>
+        </ol>
+    </div>
+    <div class="formulario">
+        <form action="">
+            <fieldset>
+                <legend>Elija un Lenguaje</legend>
+                <input type="radio" name="lenguaje" id="Javascript">
+                <label for="Javascript">Javascript</label><br>
+                <input type="radio" name="lenguaje" id="Python">
+                <label for="Python">Python</label><br>
+                <input type="radio" name="lenguaje" id="C++">
+                <label for="C++">C++</label><br>
+            </fieldset>
+        </form>
+    </div>
+</html>
